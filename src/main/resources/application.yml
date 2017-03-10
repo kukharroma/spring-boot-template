@@ -18,9 +18,7 @@ logging:
 #logging.file=/Users/mkyong/application.log
 
 
-#app:
-#  name: Roma
-#  age: 10
-#  books:
-#    -name: The best life
-#    -author: Greg Plitt
+app:
+  name: Roma
+  age: 10
+

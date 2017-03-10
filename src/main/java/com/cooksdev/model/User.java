@@ -1,10 +1,14 @@
 package com.cooksdev.model;
 
-//@Component
-//@ConfigurationProperties("app")
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties("app")
 public class User {
     private String name;
     private int age;
+
 
     public String getName() {
         return name;
